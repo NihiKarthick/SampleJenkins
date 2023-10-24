@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGtutorials.Realapplication">
+      <class name="testNGtutorials.VerifyErrormessage">
         <methods>
-          <include name="startapp"/>
-          <include name="logoutapp"/>
-          <include name="startbrowser"/>
-          <include name="loginApp"/>
-          <include name="closingbrowser"/>
+          <include name="Verifyerrormsg"/>
         </methods>
-      </class> <!-- testNGtutorials.Realapplication -->
+      </class> <!-- testNGtutorials.VerifyErrormessage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
