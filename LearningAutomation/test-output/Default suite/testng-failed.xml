@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGtutorials.VerifyErrormessage">
+      <class name="ListenerDemo.MyFirsttesting">
         <methods>
-          <include name="Verifyerrormsg"/>
+          <include name="OpeningEdgebrowser"/>
         </methods>
-      </class> <!-- testNGtutorials.VerifyErrormessage -->
+      </class> <!-- ListenerDemo.MyFirsttesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
